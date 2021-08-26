@@ -7,7 +7,7 @@ button.addEventListener('click', fraseAleatorio) // evento do botão
 
 
 function fraseAleatorio(){
-    let i = Math.round(Math.random() *12) // criando numero randomico
+    let i = Math.round(Math.random() *11) // criando numero randomico
      // adc a frase na div
     divFrase.textContent = frases[i]
      
