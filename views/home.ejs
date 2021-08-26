@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Nossa fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <!-- Nossa folha de estilo  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- titulo -->
+    <title>Biscoito da sorte</title>
+
+    <script>
+        var frases = <%- JSON.stringify(frases) %> //stringify transforma em string o objeto
+    </script>
+
+</head>
+<body class= "d-flex align-items-center text-center bg-success p-2 bg-opacity-25">
+    <div class='container'>
+        <img class="img-fluid" src="./img/biscoito-da-sorte.png" alt="Biscoito da sorte">
+        <h1 class="m-4">Biscoito da Sorte</h1>
+            <div class="card my-1">
+                <DIV class="card-body px-1 ">
+
+                </DIV>
+            </div>
+        <button class="btn btn-success my-4">Lance a sua sorte</button>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
